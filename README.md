@@ -1,2 +1,2 @@
 # my_projects.nvim
-Neovim's plugin for add, list and open workspaces
+Neovim's plugin to add, list and open workspaces
