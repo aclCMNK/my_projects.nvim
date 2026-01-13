@@ -51,6 +51,7 @@ local function selected_item(choice, buffer)
 		return
 	end
 	vim.g.projpath = item.path
+	vim.fn.chdir(vim.g.projpath or vim.loop.cwd())
 	if type(_props.onOpen) == "function" then
 		_props.onOpen(item)
 	end
